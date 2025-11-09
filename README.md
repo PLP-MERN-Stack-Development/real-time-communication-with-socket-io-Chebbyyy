@@ -7,27 +7,6 @@ The application is **responsive** and works on both desktop and mobile devices.
 
 ---
 
-## 📂 Project Structure
-
-socketio-chat/
-├── client/ # React frontend
-│ ├── public/ # Static files
-│ ├── src/
-│ │ ├── components/ # UI components (Chat, Message, UserList, etc.)
-│ │ ├── pages/ # Pages like LoginPage, ChatPage
-│ │ ├── socket/ # Socket.io client setup
-│ │ └── App.jsx
-│ └── package.json
-├── server/ # Node.js + Express backend
-│ ├── public/uploads/ # Uploaded files
-│ ├── server.js # Main server file
-│ └── package.json
-└── README.md # Project documentation
-
-
-
----
-
 ## ⚙️ Setup Instructions
 
 ### Prerequisites
@@ -59,6 +38,8 @@ npm run dev
 React app runs on http://localhost:3000
 
 Connects to server using environment variable REACT_APP_SERVER_URL or default http://localhost:5000
+
+
 
 🧰 Features Implemented
 Core Features
@@ -106,6 +87,7 @@ login.png
 
 Global Chat Room
 Chatpage.png
+
 
 
 
